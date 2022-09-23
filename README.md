@@ -1,24 +1,11 @@
 # Assignment Tracker++++
 
-[![](https://i.imgur.com/Z3Hhg8n.png)](https://chrome.google.com/webstore/detail/assignment-tracker%20%20%20%20/oalpfcadjkoogenomjfheofngijfjncp?hl=en)
-
-A rewrite of the chrome plugin [Assignment Tracker++](https://github.com/nataliesstewart/assignment-tracker) by [Natalie Stewart](https://github.com/nataliesstewart), adding a rich-text WYSIWYG editor for markdown, syntax highlighting, links, images, etc. 
+A port of the  of the chrome plugin [Assignment Tracker++++](https://github.com/ddupont808/assignment-tracker-sharp), by [Dillon DuPoint](https://github.com/ddupont808) to firefox.
+Really it's just a minor edit of the manifest.
+Tested exclusively on firefox 102.2.0esr.
 
 ![screenshot](screenie.png)
 
-## Installation
+Assignment Tracker++++ is itself a rewrite of [Assignment Tracker++](https://github.com/nataliesstewart/assignment-tracker), by Myself, which itself was a fork of [Assignment Tracker](https://chrome.google.com/webstore/detail/assignment-tracker/majicckffndkgmkcdbgccohoclphnkhg), a project by [Cat Zeng](https://github.com/yczeng).
 
-The extension can be downloaded from the [chrome store](https://chrome.google.com/webstore/detail/assignment-tracker%20%20%20%20/oalpfcadjkoogenomjfheofngijfjncp?hl=en)
-
-Alternatively, to install directly from this repo, do the following:
-
-### Chrome
-* clone or download the repo.
-* follow [these instructions](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/) to install unpacked from the cloned repo.
-
-## Current state:
-
-* Foreground color, background color are able to be configured in `chrome://extensions` within chrome
-* Supports text size, margins, links, images, custom fonts, text alignment, lists, and other text formatting options
-* Adds a context menu to quickly copy links or texts to your new tab page
-* Supports code syntax highlighting via [hightlight.js](https://highlightjs.org/)
+Release and entry on the Mozilla addons repository pending.
